@@ -51,5 +51,5 @@ function calcResult() {
     total += grades[i]
   }
 
-  return total / grades.length
+  return (total / grades.length).toFixed(2)
 }
